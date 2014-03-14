@@ -4114,8 +4114,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #999999;
 }
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 0px;
+  margin-bottom: 0px;
   color: inherit;
   background-color: transparent;
 }
@@ -4124,7 +4124,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-size: 21px;
   font-weight: 200;
 }
@@ -4136,12 +4136,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .container .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -5162,10 +5162,6 @@ body {
 h1,
 h2 {
   font-family: "AW Conqueror Slab Light", Georgia, "Times New Roman", Times, serif;
-}
-.jumbotron {
-  padding-right: 0;
-  padding-left: 0;
 }
 .jumbotron .container {
   text-align: center;
