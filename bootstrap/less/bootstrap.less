@@ -48,8 +48,29 @@
 @import "utilities.less";
 @import "responsive-utilities.less";
 
+@font-face {
+	// Variables don't work in Firefox here
+	font-family: "AW Conqueror Sans Light";
+	src:
+		url("../fonts/AWConquerorSans-Light.ttf"),
+		url("../fonts/AWConquerorSans-Light.otf"),
+		url("../fonts/AWConquerorSans-Light.eot");
+}
+
+@font-face {
+	font-family: "AW Conqueror Slab Light";
+	src:
+		url("../fonts/AWConquerorSlab-Light.ttf"),
+		url("../fonts/AWConquerorSlab-Light.otf"),
+		url("../fonts/AWConquerorSlab-Light.eot");
+}
+
 body {
 	padding-top: 70px;
+}
+
+h1 {
+	font-family: @font-family-serif;
 }
 
 
