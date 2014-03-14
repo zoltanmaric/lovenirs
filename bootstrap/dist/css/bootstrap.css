@@ -5159,15 +5159,24 @@ button.close {
 body {
   padding-top: 70px;
 }
-h1 {
+h1,
+h2 {
   font-family: "AW Conqueror Slab Light", Georgia, "Times New Roman", Times, serif;
+}
+.jumbotron {
+  padding-right: 0;
+  padding-left: 0;
 }
 .jumbotron .container {
   text-align: center;
-  padding-left: 0;
+  width: 60%;
 }
-.jumbotron .about {
+.jumbotron .background-dark-mint {
   background-color: #bae0ca;
+  width: 100%;
+}
+.jumbotron .about img {
+  max-height: 150px;
 }
 .navbar-nav {
   float: none;
