@@ -3943,13 +3943,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #dddddd;
+  color: #bae0ca;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
+  color: #bae0ca;
   background-color: #d71119;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -3976,7 +3976,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #d71119;
-  color: #555555;
+  color: #bae0ca;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -3984,13 +3984,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #dddddd;
+    color: #bae0ca;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555555;
+    color: #bae0ca;
     background-color: #d71119;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -4004,7 +4004,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .navbar-default .navbar-link:hover {
-  color: #dddddd;
+  color: #bae0ca;
 }
 .navbar-inverse {
   background-color: #222222;
@@ -5147,5 +5147,18 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+body {
+  padding-top: 70px;
+}
+.jumbotron .container {
+  text-align: center;
+  padding-left: 0;
+}
+.jumbotron .about {
+  background-color: #bae0ca;
+}
+.navbar-nav {
+  float: none;
 }
 /*# sourceMappingURL=bootstrap.css.map */
