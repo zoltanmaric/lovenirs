@@ -66,7 +66,7 @@
 }
 
 body {
-	padding-top: 70px;
+	padding-top: @navbar-height;
 }
 
 h1, h2, .navbar-nav {
@@ -81,6 +81,7 @@ h1, h2, .navbar-nav {
 	}
 }
 
+// This centers the navbar horizontally
 @media (min-width: @screen-sm-min) {
 	.navbar-nav{
 	    margin: 0 auto;
@@ -97,10 +98,12 @@ h1, h2, .navbar-nav {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+
 	.background-dark-mint {
 		background-color:	@brand-dark-mint;
 		width: 100%;
 	}
+
 	.background-red {
 		background-color: 	@brand-primary;
 		color: 				@brand-light-mint;
@@ -109,6 +112,7 @@ h1, h2, .navbar-nav {
 			font-weight: 	bold;
 		}
 	}
+
 	.about {
 		img {
 			max-height: 150px;
@@ -117,6 +121,7 @@ h1, h2, .navbar-nav {
 			padding-top: 5px;
 		}
 	}
+
 	.contact {
 		p {
 			font-size: ceil((@jumbotron-font-size * 0.8));	
