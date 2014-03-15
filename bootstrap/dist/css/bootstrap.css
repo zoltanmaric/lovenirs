@@ -3113,8 +3113,14 @@ body {
 }
 h1,
 h2,
+.navbar-brand,
 .navbar-nav {
   font-family: "AW Conqueror Slab Light", Georgia, "Times New Roman", Times, serif;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
 }
 .navbar-nav li {
   font-weight: bold;
@@ -3139,6 +3145,9 @@ h2,
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.jumbotron .container img {
+  max-width: 100%;
+}
 .jumbotron .background-dark-mint {
   background-color: #bae0ca;
   width: 100%;
@@ -3155,7 +3164,7 @@ h2,
   max-height: 150px;
 }
 .jumbotron .about p {
-  padding-top: 5px;
+  padding-top: 11px;
 }
 .jumbotron .contact p {
   font-size: 17px;

@@ -69,8 +69,14 @@ body {
 	padding-top: @navbar-height;
 }
 
-h1, h2, .navbar-nav {
+h1, h2, .navbar-brand, .navbar-nav {
 	font-family: @font-family-serif;
+}
+
+.navbar-brand {
+	@media (min-width: @screen-sm-min) {
+		display: none;
+	}
 }
 
 .navbar-nav {
@@ -99,6 +105,10 @@ h1, h2, .navbar-nav {
 		width: 60%;
 		padding-top: 20px;
 		padding-bottom: 20px;
+
+		img {
+			max-width: 100%;
+		}
 	}
 
 	.background-dark-mint {
@@ -120,7 +130,7 @@ h1, h2, .navbar-nav {
 			max-height: 150px;
 		}
 		p {
-			padding-top: 5px;
+			padding-top: ceil((@jumbotron-font-size * 0.5));
 		}
 	}
 
