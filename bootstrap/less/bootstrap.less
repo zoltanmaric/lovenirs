@@ -69,10 +69,26 @@ body {
 	padding-top: 70px;
 }
 
-h1, h2 {
+h1, h2, .navbar-nav {
 	font-family: @font-family-serif;
 }
 
+.navbar-nav {
+	li {
+		width: 100px;
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+@media (min-width: @screen-sm-min) {
+	.navbar-nav{
+	    margin: 0 auto;
+	    display: table;
+	    table-layout: fixed;
+	    float:none;
+	}
+}
 
 .jumbotron {
 	.container {
@@ -102,6 +118,9 @@ h1, h2 {
 		}
 	}
 	.contact {
+		p {
+			font-size: ceil((@jumbotron-font-size * 0.8));	
+		}
 	}
 }
 

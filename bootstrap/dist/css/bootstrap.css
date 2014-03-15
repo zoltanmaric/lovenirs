@@ -2147,28 +2147,28 @@ select[multiple].input-lg {
   border-color: #d71119;
 }
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #bae0ca;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #e6e6e6;
+  color: #97d0af;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #bae0ca;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #bae0ca;
+  color: #ffffff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #bae0ca;
+  color: #ffffff;
   background-color: #d71119;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -2195,21 +2195,21 @@ select[multiple].input-lg {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #d71119;
-  color: #bae0ca;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
+    color: #bae0ca;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #bae0ca;
+    color: #ffffff;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #bae0ca;
+    color: #ffffff;
     background-color: #d71119;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -2220,10 +2220,10 @@ select[multiple].input-lg {
   }
 }
 .navbar-default .navbar-link {
-  color: #ffffff;
+  color: #bae0ca;
 }
 .navbar-default .navbar-link:hover {
-  color: #bae0ca;
+  color: #ffffff;
 }
 .navbar-inverse {
   background-color: #222222;
@@ -2975,8 +2975,22 @@ body {
   padding-top: 70px;
 }
 h1,
-h2 {
+h2,
+.navbar-nav {
   font-family: "AW Conqueror Slab Light", Georgia, "Times New Roman", Times, serif;
+}
+.navbar-nav li {
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+  }
 }
 .jumbotron .container {
   text-align: center;
@@ -3001,6 +3015,9 @@ h2 {
 }
 .jumbotron .about p {
   padding-top: 5px;
+}
+.jumbotron .contact p {
+  font-size: 17px;
 }
 .navbar-nav {
   float: none;
