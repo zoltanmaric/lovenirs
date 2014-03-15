@@ -5166,13 +5166,26 @@ h2 {
 .jumbotron .container {
   text-align: center;
   width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .jumbotron .background-dark-mint {
   background-color: #bae0ca;
   width: 100%;
 }
+.jumbotron .background-red {
+  background-color: #ed1c24;
+  color: #dfefe5;
+}
+.jumbotron .background-red a {
+  color: #dfefe5;
+  font-weight: bold;
+}
 .jumbotron .about img {
   max-height: 150px;
+}
+.jumbotron .about p {
+  padding-top: 5px;
 }
 .navbar-nav {
   float: none;
