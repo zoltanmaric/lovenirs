@@ -18,7 +18,7 @@
 // Components
 @import "component-animations.less";
 // @import "glyphicons.less";
-// @import "dropdowns.less";
+@import "dropdowns.less";
 // @import "button-groups.less";
 // @import "input-groups.less";
 @import "navs.less";
@@ -75,8 +75,10 @@ h1, h2, .navbar-nav {
 
 .navbar-nav {
 	li {
-		width: 100px;
-		text-align: center;
+		@media (min-width: @screen-sm-min) {
+			width: 100px;
+			text-align: center;
+		}
 		font-weight: bold;
 	}
 }
